@@ -14,8 +14,8 @@ msg() {
     printf "\033[1;32m :: %s\n\033[0m" "$1"
 }
 
-msg "Adding the \`public\` folder to .gitignore"
-echo "public" >> .gitignore
+#msg "Adding the \`public\` folder to .gitignore"
+#echo "public" >> .gitignore
 
 msg "Deleting the \`master\` branch"
 git branch -D master
