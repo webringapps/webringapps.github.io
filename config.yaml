@@ -1,0 +1,39 @@
+baseurl: "https://antemihalj.github.io/"
+languageCode: en-US
+languageLang: en
+title: WeBringApps digital agency
+pluralizelisttitles: false
+params:
+  sitename: WeBringApps
+  copyright: webringapps.com
+  powerBy: www.webringapps.com
+  github: amihalj
+  googleVerification: ''
+  social:
+    twitter: null
+    facebook: null
+    instagram: null
+    google: null
+  contact:
+    email: info@webringapps.com
+    address: null
+    mobile: null
+  author:
+    name: Ante Mihalj
+    about: My name is Ante
+    contact:
+      email: ante.mihalj@webringapps.com
+    image: 
+      small: /img/avatar.jpg
+      medium: /img/avatar.jpg
+      big: /img/avatar.jpg
+    social:
+      twitter: null
+      facebook: null
+      instagram: null
+      google: null
+
+menu:
+    top:
+    - {Name: Home, Identifier: home, Url: "/", Weight: 10}
+    - {Name: Blog, Identifier: blog, Url: "/blog/", Weight: 20}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head" . }}
+
+<body id="page-top">
+  {{ partial "nav-top" . }}
+
+  <!-- Header -->
+  <header class="masthead">
+      <div class="container">
+          <div class="intro-text">
+              <div class="intro-lead-in">Welcome To Our Studio!</div>
+              <div class="intro-heading">It's Nice To Meet You</div>
+              <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+          </div>
+      </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ .Params.introduction.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ .Params.introduction.intro }}</h3>
+        </div>
+      </div>
+      {{ range $k, $v := .Params.introduction.tiles }}
+        {{ if mod $k 3 | eq 0 }}
+        <div class="row text-center">
+        {{ end }}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa {{ $v.icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ $v.title }}</h4>
+            <p class="text-muted">{{ $v.content | markdownify }}</p>
+          </div>
+        {{ if mod $k 3 | eq 2 }}
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ partial "js" . }}
+</body>
