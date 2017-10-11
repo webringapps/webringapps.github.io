@@ -58,7 +58,7 @@ sections:
   - keep things as simple as possible
   - stay sharp on knowledge and technologies
   - learn to listen to your clients and lead them toward better solutions
-  - #11 be cool!
+  - 11 be cool!
 
 - title: Website development
   responsiveImage:

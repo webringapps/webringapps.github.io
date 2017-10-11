@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head" . }}
+
+<body id="page-top">
+  {{ partial "nav-top" . }}
+  {{ partial "header" . }}
+
+  <div class="container">
+    <div class="row">
+      {{ with .Params.content }} {{ . | markdownify }} {{ end }}
+    </div>
+  </div>
+  {{ partial "footer" . }}
+</body>

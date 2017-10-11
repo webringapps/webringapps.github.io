@@ -1,4 +1,4 @@
-baseurl: "https://antemihalj.github.io/"
+baseurl: "/"
 languageCode: en-US
 languageLang: en
 title: WeBringApps digital agency
@@ -36,4 +36,5 @@ params:
 menu:
     top:
     - {Name: Home, Identifier: home, Url: "/", Weight: 10}
-    - {Name: Blog, Identifier: blog, Url: "/blog/", Weight: 20}
+    - {Name: Technologies, Identifier: technologies, Url: "/technologies/", Weight: 10}
+    - {Name: Posts, Identifier: posts, Url: "/posts/", Weight: 20}
