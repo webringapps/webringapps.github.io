@@ -2,14 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WeBringApps digital agency</title>
-    <link>https://antemihalj.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on WeBringApps digital agency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>webringapps.com</copyright>
+    <lastBuildDate>Wed, 11 Oct 2017 14:27:44 +0200</lastBuildDate>
     
-	<atom:link href="https://antemihalj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blank</title>
+      <link>/tags/blank/</link>
+      <pubDate>Wed, 11 Oct 2017 14:27:44 +0200</pubDate>
+      
+      <guid>/tags/blank/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
