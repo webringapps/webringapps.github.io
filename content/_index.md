@@ -17,6 +17,9 @@ introduction:
   title: null
   intro: null
   tiles:
+  - title: Clients
+    icon: fa-heart
+    content: We love our clients and keeping our clients happy is important for us
   - title: Web Security
     icon: fa-lock
     content: Our solutions are safe, with security we don't compromise!
@@ -33,16 +36,16 @@ process:
 
   tiles:
   - title: Identify
-    icon: fa-icon-lightbulb
+    icon: fa-lightbulb-o 
     content: Identify our client needs, what is the goal that would satisfy demands
   - title: Strategy
-    icon: fa-icon-edit
+    icon: fa-edit
     content: Set strategy to produce quality solution in reasonable timeframe
   - title: Build
-    icon: fa-icon-cog
+    icon: fa-cog
     content: Start building solution in iterative process and get feedback from client
   - title: Launch
-    icon: icon-plane
+    icon: fa-rocket
     content: Launch application within deadline and give support
 
 sections:
@@ -121,4 +124,6 @@ sections:
   - avoid unnecessary expences for resource hat you don't use 
   - avoid downtime with system that can repair itself
   - working with **Amazon, Azure nd Google could services**
+
+
 ---

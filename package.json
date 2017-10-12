@@ -1,18 +1,24 @@
 {
-  "name": "webringapps.github.io",
-  "version": "1.0.0",
-  "description": "personal website",
-  "main": "webpack.config.js",
-  "dependencies": {},
-  "devDependencies": {
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com-wba:webringapps/webringapps.github.io.git"
-  },
-  "author": "Ante Mihalj",
-  "license": "ISC"
+    "name": "webringapps.github.io",
+    "version": "1.0.0",
+    "description": "personal website",
+    "main": "webpack.config.js",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.7.0",
+        "gulp-header": "1.8.9",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com-wba:webringapps/webringapps.github.io.git"
+    },
+    "author": "Ante Mihalj",
+    "license": "ISC"
 }
