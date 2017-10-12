@@ -36,5 +36,5 @@ params:
 menu:
     top:
     - {Name: Home, Identifier: home, Url: "/", Weight: 10}
-    - {Name: Technologies, Identifier: technologies, Url: "/technologies/", Weight: 10}
-    - {Name: Posts, Identifier: posts, Url: "/posts/", Weight: 20}
+    #- {Name: Technologies, Identifier: technologies, Url: "/technologies/", Weight: 10}
+    #- {Name: Posts, Identifier: posts, Url: "/posts/", Weight: 20}

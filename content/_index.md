@@ -2,11 +2,11 @@
 title: Home
 date: 2017-10-10T08:00:00.000Z
 meta:
-  title: WeBringApps - digital agency for successfull solutions
+  title: Software development agency for successfull solutions
   keywords: software development,app development, web development, project management
   description: WeBringApps is a digital agency focused to deliver a successfull web and mobile apps that our clients will love. Our team of dedicated and fully responsible engineers is capable to deliver any kind of solution. No challenge is unureachable.
 h1: WeBringApps - successful software solutions
-subtitle: Complex and challenging goals that we make simple
+subtitle: We make software development simple
 slider:
 
 - title: Web app development
@@ -15,11 +15,12 @@ slider:
 
 introduction:
   title: null
+  subtitle: null
   intro: null
   tiles:
   - title: Clients
     icon: fa-heart
-    content: We love our clients and keeping our clients happy is important for us
+    content: We pay attention to our clients needs and keep them happy
   - title: Web Security
     icon: fa-lock
     content: Our solutions are safe, with security we don't compromise!
@@ -32,6 +33,7 @@ introduction:
 
 process:
   title: Our development process
+  subtitle: We keep it clean and simple
   intro: We keep our process clean and simple which is important to keep possible problems out of the pipeline. Involving our clients into process and getting feedback during development is the key to success
 
   tiles:

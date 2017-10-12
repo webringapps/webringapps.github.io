@@ -1,2 +1,5 @@
 public
+dist
+static/css/main.min.css
+static/js/main.min.js
 node_modules

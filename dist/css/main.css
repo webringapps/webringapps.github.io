@@ -455,7 +455,10 @@ header.masthead {
         border-right-width: 14px;
         border-left-width: 0; }
       .serviceline > li .serviceline-panel .points {
-        list-style: none; }
+        list-style: none;
+        padding: 10px 0;
+        margin: 15px 0;
+        border-top: dashed 1px; }
         .serviceline > li .serviceline-panel .points .star .fa {
           padding-right: 5px;
           font-size: 0.8em;
