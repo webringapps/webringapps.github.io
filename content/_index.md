@@ -20,16 +20,22 @@ introduction:
   tiles:
   - title: Clients
     icon: fa-heart
-    content: We pay attention to our clients needs and keep them happy
+    content: We care about our clients
+  - title: Deliver on time
+    icon: fa-clock-o
+    content: Deadlines are important to us
   - title: Web Security
     icon: fa-lock
-    content: Our solutions are safe, with security we don't compromise!
+    content: We don't compromise security, our solutions are safe!
+  - title: We are sharp
+    icon: fa-bolt
+    content: Staying up to date with technology and updates
   - title: Responsive design
     icon: fa-laptop
-    content: Some responsive design
+    content: Our solutions can adopt to any screen size
   - title: Cloud ready solutions
     icon: fa-cloud
-    content: Web applications for cloud infrastructure. We make apps that can scale to support large number of clients
+    content: MAking apps that will scale and support a large number of clients
 
 process:
   title: Our development process
@@ -44,7 +50,7 @@ process:
     icon: fa-edit
     content: Set strategy to produce quality solution in reasonable timeframe
   - title: Build
-    icon: fa-cog
+    icon: fa-cogs
     content: Start building solution in iterative process and get feedback from client
   - title: Launch
     icon: fa-rocket
