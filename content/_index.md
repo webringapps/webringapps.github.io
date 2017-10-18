@@ -20,10 +20,10 @@ introduction:
   tiles:
   - title: Clients
     icon: fa-heart
-    content: We care about our clients
+    content: We care about our clients and their needs
   - title: Deliver on time
     icon: fa-clock-o
-    content: Deadlines are important to us
+    content: Deadlines are something we take seriously
   - title: Web Security
     icon: fa-lock
     content: We don't compromise security, our solutions are safe!
@@ -32,29 +32,29 @@ introduction:
     content: Staying up to date with technology and updates
   - title: Responsive design
     icon: fa-laptop
-    content: Our solutions can adopt to any screen size
+    content: Solutions that will adopt to any screen size
   - title: Cloud ready solutions
     icon: fa-cloud
-    content: MAking apps that will scale and support a large number of clients
+    content: Avoid headacke and build apps that will scale
 
 process:
   title: Our development process
-  subtitle: We keep it clean and simple
-  intro: We keep our process clean and simple which is important to keep possible problems out of the pipeline. Involving our clients into process and getting feedback during development is the key to success
+  subtitle: Keep it clean. Keep it simple
+  intro: The key to success is to avoid unnecessary complexity. We try to keep our development process clean and simple. Iterative process and cycles of development and client feedback give best results in development and product delivery.
 
   tiles:
   - title: Identify
     icon: fa-lightbulb-o 
-    content: Identify our client needs, what is the goal that would satisfy demands
+    content: Identify client needs, define goals and remove "noise"
   - title: Strategy
     icon: fa-edit
-    content: Set strategy to produce quality solution in reasonable timeframe
+    content: Make a plan to produce solution within timeframe and budget, but keep quality assurance high
   - title: Build
     icon: fa-cogs
-    content: Start building solution in iterative process and get feedback from client
+    content: Start building solution in iterative process, get feedback from clients, repair and make it better
   - title: Launch
     icon: fa-rocket
-    content: Launch application within deadline and give support
+    content: Launch solution within deadline and continue to give support
 
 sections:
 
@@ -64,6 +64,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-bolt
   content: We are **experienced team** of engineers with more that 10 years of professional development. Through year of working experiece with large number of clients and different profiles we learned what is important to make software solutions successfull
   points:
   - keep things as simple as possible
@@ -77,6 +78,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-html5
   content: Make **higher client conversion** by employing **UX design** techniques and appealing beautiful design to your public websites or social networks. Make your company stand out from your competitors
   points:
   - present your company with a beautiful website
@@ -91,6 +93,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-server
   content: Making highly complex systems look simple is our speciality! If you need to make a backend system from scratch or you need to extends current one, we are your team. There is no chllenge we cannot take, there is not technology we cannot handle. 
   points:
   - we can handle any **leading back-end technology** (.NET, Java, NodeJS, Go, ... you name it)
@@ -103,6 +106,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-desktop
   content: Either website or singe-page-app, our engineers can take any idea and transform it into blasting web interface. We try to keep ourselves on the edge of front-end technologies.
   points:
   - we support leading frontend trends HTML5, CSS3, SASS
@@ -114,6 +118,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-asterisk
   content: Connecting two worlds of backend and frontend technologies. Get our team involved and make **great APIs or Web apps**. Make your existing systems integrate with eachother. Get in charge of your data and use it to your advantage
   points:
   - we can handle any **leading back-end technology** (.NET, Java, NodeJS, Go, ... you name it)
@@ -126,6 +131,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
+  icon: fa-cloud
   content: Cloud development is development taken to another level where apps need to scale and adopt acording to traffic and user load. Build your apps so they can scale and be sucessfull. If yout know how to handle it by yourself, no problem, get our team involved. We have lots of experince working with cloud infrastructure.
   points:
   - scale apps acording to your needs

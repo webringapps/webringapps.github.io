@@ -137,26 +137,31 @@ header.masthead {
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; } }
+
+@media (min-width: 992px) {
+  .intro-text {
     padding-top: 300px;
-    padding-bottom: 200px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+    padding-bottom: 200px; } }
 
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+
+section.badges {
+  padding: 10px 0; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -474,11 +479,16 @@ header.masthead {
       color: white;
       border: 7px solid #f1f1f1;
       border-radius: 100%;
-      background-color: #68b98d; }
+      background-color: #68b98d;
+      color: #68b98d;
+      background-color: #fff; }
       .serviceline > li .serviceline-image h4 {
         font-size: 10px;
         line-height: 14px;
         margin-top: 12px; }
+      .serviceline > li .serviceline-image .fa {
+        text-align: center;
+        display: block; }
     .serviceline > li.serviceline-inverted > .serviceline-panel {
       float: right;
       padding: 0 20px 0 100px;
@@ -504,6 +514,34 @@ header.masthead {
   .serviceline .serviceline-body > p {
     margin-bottom: 0; }
 
+@media (min-width: 220px) {
+  .serviceline:before {
+    left: 50%; }
+  .serviceline > li {
+    min-height: 100px;
+    margin-bottom: 20px; }
+    .serviceline > li .serviceline-heading {
+      text-align: center; }
+    .serviceline > li .serviceline-panel {
+      margin-top: 20px;
+      padding: 0;
+      text-align: left;
+      background-color: #fff; }
+    .serviceline > li .serviceline-image {
+      position: relative;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      margin-left: -50px; }
+      .serviceline > li .serviceline-image img {
+        display: none; }
+      .serviceline > li .serviceline-image .fa {
+        font-size: 3em;
+        margin-top: 0.25em; }
+    .serviceline > li.serviceline-inverted > .serviceline-panel {
+      padding: 0;
+      text-align: left; } }
+
 @media (min-width: 768px) {
   .serviceline:before {
     left: 50%; }
@@ -511,8 +549,8 @@ header.masthead {
     min-height: 100px;
     margin-bottom: 100px; }
     .serviceline > li .serviceline-panel {
-      float: left;
-      padding: 0 20px 20px 30px; }
+      padding: 0;
+      text-align: left; }
     .serviceline > li .serviceline-image {
       left: 50%;
       width: 100px;
@@ -523,8 +561,7 @@ header.masthead {
         line-height: 18px;
         margin-top: 16px; }
     .serviceline > li.serviceline-inverted > .serviceline-panel {
-      float: right;
-      padding: 0 30px 20px 20px;
+      padding: 0;
       text-align: left; } }
 
 @media (min-width: 992px) {
@@ -539,11 +576,16 @@ header.masthead {
     background-color: #f1f1f1; }
   .serviceline > li {
     min-height: 150px; }
+    .serviceline > li .serviceline-heading {
+      text-align: left; }
     .serviceline > li .serviceline-panel {
+      margin-top: 0px;
       float: left;
       padding: 0 20px 20px 190px;
-      width: 100%; }
+      width: 100%;
+      background-color: transparent; }
     .serviceline > li .serviceline-image {
+      position: absolute;
       width: 150px;
       height: 150px;
       margin-left: 10px;
@@ -552,7 +594,12 @@ header.masthead {
       .serviceline > li .serviceline-image h4 {
         font-size: 18px;
         line-height: 26px;
-        margin-top: 30px; } }
+        margin-top: 30px; }
+      .serviceline > li .serviceline-image .fa {
+        font-size: 4em;
+        position: relative;
+        top: 50%;
+        margin-top: -25%; } }
 
 @media (min-width: 1200px) {
   .serviceline:before {
@@ -571,6 +618,7 @@ header.masthead {
       padding: 0 20px 20px 220px;
       width: 100%; }
     .serviceline > li .serviceline-image {
+      position: absolute;
       width: 170px;
       height: 170px;
       margin-left: 25px;
