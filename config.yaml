@@ -3,12 +3,17 @@ languageCode: en-US
 languageLang: en
 title: WeBringApps digital agency
 pluralizelisttitles: false
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
 params:
   sitename: WeBringApps
   copyright: webringapps.com
   powerBy: www.webringapps.com
   github: amihalj
-  googleVerification: ''
+  googleVerification: sp8ZH2G5uLVLuaedlM0QbUFlBNoB19ASjmLGt2TMWfg
+  googleTrackId: UA-108440761-1
   social:
     twitter: null
     facebook: null
