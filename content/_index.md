@@ -6,7 +6,7 @@ meta:
   keywords: software development,app development, web development, project management
   description: WeBringApps is a digital agency focused to deliver a successful web and mobile apps that our clients will love. Our team of dedicated and fully responsible engineers is capable to deliver any kind of solution. No challenge is unureachable.
 h1: WeBringApps - successful software solutions
-subtitle: We make software development simple
+subtitle: Making software development simple
 slider:
 
 - title: Web app development
@@ -40,7 +40,7 @@ introduction:
 process:
   title: Our development process
   subtitle: Keep it clean. Keep it simple
-  intro: The key to success is to avoid unnecessary complexity. We try to keep our development process clean and simple. Iterative process and cycles of development and client feedback give best results in development and product delivery.
+  intro: The key to success is to avoid unnecessary complexity. We try to keep our development process clean and simple. Iterative process and cycles of development and client feedback gives best results in development and product delivery.
 
   tiles:
   - title: Identify
