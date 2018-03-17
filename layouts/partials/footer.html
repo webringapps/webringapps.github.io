@@ -1,31 +1,36 @@
- <!-- Footer -->
- <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <span class="copyright">Copyright &copy; {{ .Site.Params.sitename }} 2018</span>
-      </div>
-      <div class="col-md-6">
-        <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.twitter }}">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.facebook }}">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.linkedin }}">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="copyright">Copyright &copy; {{ .Site.Params.sitename }} 2018</span>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="{{ .Site.Params.social.twitter }}">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="{{ .Site.Params.social.google }}">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="{{ .Site.Params.social.facebook }}">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="{{ .Site.Params.social.linkedin }}">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
 <!-- Bootstrap core JavaScript -->
@@ -45,9 +50,12 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108440761-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-108440761-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108440761-1');
 </script>
