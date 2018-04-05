@@ -6,7 +6,7 @@ meta:
   keywords: software development,app development, web development, project management
   description: WeBringApps is a digital agency focused to deliver a successful web and mobile apps that our clients will love. Our team of dedicated and fully responsible engineers is capable to deliver any kind of solution. No challenge is unureachable.
 h1: WeBringApps - successful software solutions
-subtitle: Making software development simple
+subtitle: Making development easier and efficient
 slider:
 
 - title: Web app development
@@ -19,42 +19,42 @@ introduction:
   intro: null
   tiles:
   - title: Clients
-    icon: fa-heart
-    content: We care about our clients and their needs
+    icon: fa fa-heart
+    content: We like success, so do our clients. We wan't our clients to success, it is our goal.
   - title: Deliver on time
-    icon: fa-clock-o
-    content: Deadlines are something we take seriously
+    icon: fa fa-hourglass-half 
+    content: Time is money and we don't like to loose time or money. We are sure our clients feel the same.
   - title: Web Security
-    icon: fa-lock
-    content: We don't compromise security, our solutions are safe!
+    icon: fa fa-lock
+    content: Compromising security is not worth the risk. Make your solutions secure and avoid headache!
   - title: We are sharp
-    icon: fa-bolt
-    content: Staying up to date with technology and updates
+    icon: fa fa-bolt
+    content: Staying up to date with technology and updates is one of our key advantages and we plan to keep it that.
   - title: Responsive design
-    icon: fa-laptop
-    content: Solutions that will adopt to any screen size
+    icon: fa fa-laptop
+    content: When it comes to web UI solutions there is no excuse to make UIs that don't fit modern world screens. Our solutions incorporate responsive design.
   - title: Cloud ready solutions
-    icon: fa-cloud
-    content: Avoid headache and build apps that will scale
+    icon: fa fa-cloud
+    content: We are experts when it comes to could delivery, making your solutions ready to deploy, scale and fit modern age software demands.
 
 process:
   title: Our development process
-  subtitle: Keep it clean. Keep it simple
-  intro: The key to success is to avoid unnecessary complexity. We try to keep our development process clean and simple. Iterative process and cycles of development and client feedback gives best results in development and product delivery.
+  subtitle: Keep it clean; Keep it simple
+  intro: The key to success is to avoid unnecessary complexity and noise. We keep our development process clean and simple. Keeping our development process clean, using iterative development cycles and client's feedback give us best results.  
 
   tiles:
   - title: Identify
-    icon: fa-lightbulb-o 
-    content: Identify client needs, define goals and remove "noise"
+    icon: far fa-lightbulb 
+    content: Identify client needs, propose possible improvements, define goals and remove "noise"
   - title: Strategy
-    icon: fa-edit
+    icon: fa fa-edit
     content: Make a plan to produce solution within timeframe and budget, but keep quality assurance high
   - title: Build
-    icon: fa-cogs
+    icon: fa fa-cogs
     content: Start building solution in iterative process, get feedback from clients, repair and make it better
   - title: Launch
-    icon: fa-rocket
-    content: Launch solution within deadline and continue to give support
+    icon: fa fa-rocket
+    content: Launch solution within deadline, continue to give support and improve over time
 
 sections:
 
@@ -64,13 +64,12 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-bolt
-  content: We are **experienced team** of engineers with more that 10 years of professional development. Through years of working with different clients and  profiles we learned what is important to make software solutions successful
+  icon: fa fa-bolt
+  content: We are **experienced team** of engineers with more that 10 years of experience in professional software development. Through years of working with different clients and  profiles we learned what is important to make software solutions successful
   points:
   - keep things as simple as possible
   - stay sharp on knowledge and technologies
   - learn to listen to your clients and lead them toward better solutions
-  - 11# be cool!
 
 - title: Website development
   responsiveImage:
@@ -78,7 +77,7 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-html5
+  icon: fab fa-html5
   content: Make **higher client conversion** by employing **UX design** techniques and appealing beautiful design to your public websites or social networks. Make your company stand out from your competitors
   points:
   - present your company with a beautiful website
@@ -87,18 +86,31 @@ sections:
   - connect with social networks and get more potential clients to your website
   - gather traffic analytics and client info  with smart use of cookies and tracking tools
 
-- title: Back-end development
+- title: Server-side development
   responsiveImage:
     image-xs: null
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-server
-  content: Making highly complex systems look simple is our specialty! If you need to make a back-end system from scratch or you need to extends current one, we are your team. There is no challenge we cannot take, there is not technology we cannot handle. 
+  icon: fa fa-server
+  content: Server-side development can vary in complexity, but that is not something you should worry about as our client. It can be simple as a CRUD API or complex as scalable could application. If you need to make a server-side system from scratch or you need to extends current one, we are your team. We like challenges, technologies are no obstacle for us!
   points:
-  - we can handle any **leading back-end technology** (.NET, Java, NodeJS, Go, ... you name it)
+  - we can handle any **leading server-side technology** (.NET, Java, NodeJS, Go, ... you name it)
   - work with any leading database system (MySql, PostgreSQL, Microsoft SQL Server, MongoDB)
-  - Extract Transform 
+  - we can deploy server components on cloud infrastructure or your machines
+  - we have experience working with containerized systems (Docker, Kuberenetes, AWS) 
+
+- title: Container based development
+  responsiveImage:
+    image-xs: null
+    image-m: null
+    image-l: null
+    image-xl: null
+  icon: fab fa-docker
+  content: Containers are great new approach in software development. They tend to make the whole process of development > testing > delivery > repeat whole lot easier. With container based approach you can make complex systems achievable.
+  points:
+  - we work with technologies such as Docker and Kubernetes
+  - we can apply them to your choice of server side technology 
 
 - title: Front-end development
   responsiveImage:
@@ -106,11 +118,11 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-desktop
+  icon: fa fa-desktop
   content: Either website or singe-page-app, our engineers can take any idea and transform it into blasting web interface. We keep ourselves on the edge of front-end technologies.
   points:
   - we support leading front-end trends HTML5, CSS3, SASS
-  - our Javascript developers are crafted in web frameworks like **Angular, ReactJS, Aurelia***, ...
+  - our Javascript developers are crafted in web frameworks like **Angular, ReactJS, Aurelia**, ...
 
 - title: Web and API development
   responsiveImage:
@@ -118,12 +130,12 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-asterisk
-  content: Connecting two worlds (back-end and front-end) is like building a bridge starting from both sides and has to perfectly match in the middle. Get our team involved and make **great APIs or Web apps**. Make your existing systems integrate with each other. Get in charge of your data and use it to your advantage
+  icon: fa fa-asterisk
+  content: Connecting two worlds (server-side and front-end) is like building a bridge starting from both sides and has to perfectly match in the middle. Get our team involved and make **great APIs or Web apps**. Make your existing systems integrate with each other. Get in charge of your data and use it to your advantage
   points:
-  - we can handle any **leading back-end technology** (.NET, Java, NodeJS, Go, ... you name it)
+  - we can handle any **leading server-side technology** (.NET, Java, NodeJS, Go, ... you name it)
   - integration with existing services or creating new ones
-  - connection to most of leading databases (MySql, PostgreSQL, Microsoft SQL Server, MongoDB)
+  - use of leading databases (MySql, PostgreSQL, Microsoft SQL Server, MongoDB)
 
 - title: Cloud development
   responsiveImage:
@@ -131,13 +143,14 @@ sections:
     image-m: null
     image-l: null
     image-xl: null
-  icon: fa-cloud
+  icon: fa fa-cloud
   content: Cloud development is development taken to another level where apps need to scale and adopt according to traffic and user load. Build your apps so they can scale and still be successful when your number of clients reach high number. If you don't know how to handle it by yourself get our team involved and relax. We have lots of experience working with cloud infrastructures.
   points:
   - scale apps according to your needs
   - avoid unnecessary expenses for resource hat you don't use 
   - avoid downtime with system that can repair itself
   - working with **Amazon, Azure and Google could services**
+  - working with containerized systems to make cloud delivery achievable
 
 
 ---

@@ -1,7 +1,7 @@
 baseurl: "/"
 languageCode: en-US
 languageLang: en
-title: WeBringApps digital agency
+title: WeBringApps - software development agency
 pluralizelisttitles: false
 sitemap:
   changefreq: monthly
@@ -16,9 +16,9 @@ params:
   googleTrackId: UA-108440761-1
   social:
     twitter: null
-    facebook: null
+    facebook: https://www.facebook.com/webringapps/
     instagram: null
-    google: null
+    google: https://plus.google.com/103759532930714070333
   contact:
     email: info@webringapps.com
     address: null

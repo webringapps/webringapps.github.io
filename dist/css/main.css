@@ -486,7 +486,7 @@ section.badges {
         font-size: 10px;
         line-height: 14px;
         margin-top: 12px; }
-      .serviceline > li .serviceline-image .fa {
+      .serviceline > li .serviceline-image .fa, .serviceline > li .serviceline-image .fab, .serviceline > li .serviceline-image .far, .serviceline > li .serviceline-image .fas {
         text-align: center;
         display: block; }
     .serviceline > li.serviceline-inverted > .serviceline-panel {
@@ -535,7 +535,7 @@ section.badges {
       margin-left: -50px; }
       .serviceline > li .serviceline-image img {
         display: none; }
-      .serviceline > li .serviceline-image .fa {
+      .serviceline > li .serviceline-image .fa, .serviceline > li .serviceline-image .fab, .serviceline > li .serviceline-image .far, .serviceline > li .serviceline-image .fas {
         font-size: 3em;
         margin-top: 0.25em; }
     .serviceline > li.serviceline-inverted > .serviceline-panel {
@@ -595,7 +595,7 @@ section.badges {
         font-size: 18px;
         line-height: 26px;
         margin-top: 30px; }
-      .serviceline > li .serviceline-image .fa {
+      .serviceline > li .serviceline-image .fa, .serviceline > li .serviceline-image .fab, .serviceline > li .serviceline-image .far, .serviceline > li .serviceline-image .fas {
         font-size: 4em;
         position: relative;
         top: 50%;
