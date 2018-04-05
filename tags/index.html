@@ -17,7 +17,7 @@
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   
-  <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='//fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -87,23 +87,22 @@
         <ul class="list-inline social-buttons">
           <li class="list-inline-item">
             <a href="">
-              <i class="fa fa-twitter"></i>
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/webringapps">
+              <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a href="">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="">
-              <i class="fa fa-linkedin"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 </footer>
 
 
@@ -123,11 +122,13 @@
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108440761-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-108440761-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108440761-1');
 </script>
-
 </body>
