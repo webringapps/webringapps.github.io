@@ -7,9 +7,13 @@ meta:
   keywords: senior developer, software architect, team lead, freelancer
   description: Ante Mihalj is the most experienced team member of WeBringApps team. With more than 15 year experience he covered a large 
 h1: Ante Mihalj
-subtitle: senior developer, software architect, team lead
+subtitle: senior developer, software architect, team leader
 tags: blank
-content: place your content **here**e
+
+headings:
+  personal: Personal information
+  education: Education
+  hobbies: Hobbies
 
 personal: 
   name: Ante Mihalj
@@ -59,7 +63,7 @@ work_experience:
     anchor: monica
   - name: EDRS
     anchor: edrs
-- employer: Repsly Inc. Croatia
+- employer: Repsly.com
   link: https://www.repsly.com
   period: June 2010 - Nov 2013
   occupation: Software engineer, Web lead manager
