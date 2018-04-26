@@ -55,6 +55,30 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #68b98d; }
 
+.mg-bottom-30 {
+  margin-bottom: 30px; }
+
+.mg-top-30 {
+  margin-top: 30px; }
+
+.pd-bottom-30 {
+  padding-bottom: 30px; }
+
+.pd-top-30 {
+  padding-top: 30px; }
+
+.mg-bottom-15 {
+  margin-bottom: 15px; }
+
+.mg-top-15 {
+  margin-top: 15px; }
+
+.pd-bottom-15 {
+  padding-bottom: 15px; }
+
+.pd-top-15 {
+  padding-top: 15px; }
+
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
@@ -640,6 +664,77 @@ section.badges {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
+
+.cv-table .label {
+  font-weight: bold;
+  color: #868e96 !important; }
+
+.cv-table .bottom-separator {
+  border-bottom: #868e96 dashed 1px; }
+
+.cv-list {
+  list-style: none; }
+  .cv-list .item {
+    border-bottom: #868e96 dashed 1px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .cv-list .item:first-child {
+      padding-top: 0px; }
+    .cv-list .item:last-child {
+      border-bottom: none; }
+    .cv-list .item .points {
+      list-style: none; }
+      .cv-list .item .points .star .fa {
+        padding-right: 5px;
+        font-size: 0.8em;
+        color: #68b98d; }
+
+ul.tags {
+  padding: 0px; }
+  ul.tags .tag {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    color: #fff;
+    background: #68b98d;
+    font-size: .8em;
+    padding: 3px 6px;
+    border-radius: 10px; }
+    ul.tags .tag .fa {
+      margin-right: 10px; }
+
+section.education {
+  background-color: #68b98d;
+  color: #fff; }
+  section.education .education-list {
+    max-width: 600px;
+    margin: 20px auto; }
+  section.education .label {
+    font-weight: normal;
+    color: #fff !important; }
+
+.personal .avatar-image {
+  text-align: center;
+  margin: 20px 0; }
+  .personal .avatar-image img {
+    background: #222;
+    border-radius: 50%; }
+
+.personal .social-buttons {
+  text-align: center; }
+
+.projects .item {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .projects .item:first-child {
+    padding-top: 0px; }
+  .projects .item:last-child {
+    border-bottom: none; }
+
+@media (min-width: 992px) {
+  .personal .avatar-image {
+    text-align: right; }
+    .personal .avatar-image img {
+      border-radius: 5%; } }
 
 section#contact {
   background-color: #222222;

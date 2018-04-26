@@ -6,23 +6,7 @@
         <span class="copyright">Copyright &copy; {{ .Site.Params.sitename }} 2018</span>
       </div>
       <div class="col-md-6">
-        <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.twitter }}">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.facebook }}">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="{{ .Site.Params.social.linkedin }}">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
+          {{ partial "social-buttons" .Site.Params.social}}
       </div>
     </div>
 </footer>

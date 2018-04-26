@@ -18,7 +18,7 @@ params:
     twitter: null
     facebook: https://www.facebook.com/webringapps
     instagram: null
-    google: https://plus.google.com/103759532930714070333
+    google_plus: https://plus.google.com/103759532930714070333
   contact:
     email: info@webringapps.com
     address: null

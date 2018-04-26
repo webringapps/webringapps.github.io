@@ -4,10 +4,10 @@
 
 <body id="page-top">
   {{ partial "nav-top" . }}
-  {{ partial "header" . }}
+  {{ partial "header_cv" . }}
 
   <!-- About -->
-  <section id="about" class="shade">
+  <section id="about" class="shade cv-table personal">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -15,50 +15,86 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.name }}</div>
+        <div class="col-lg-4 col-md-12">
+          {{ with .Params.personal.responsive_image }}
+          <div class="avatar-image">
+            {{ partial "responsive-image" .}}
+          </div>
+          {{ end }}
+        </div>
+        
+        <div class="col-lg-8 col-md-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.name }}</div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.title }}</div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Date of birth:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.dob }}</div>
+              </div>
+          <p>
+            {{ .Params.personal.intro | markdownify }}
+          </p>
+          {{ partial "social-buttons" .Params.social}}
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="about" class="shade cv-table personal">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About me</h2>
+        </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.title }}</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Date of birth:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.dob }}</div>
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ .Params.personal.content | markdownify }}
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="work-experience" class="shade">
-    <div class="container">
+  <section id="work-experience" class="shade cv-table cv-list">
+    <div class="container item-list">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Work experience</h2>
         </div>
       </div>
       {{ range .Params.work_experience }}
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Dates:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .period }}</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Employer:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .employer }}</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Occupation or position held:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .occupation }}</div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Main activities and responsibilities:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">{{ .responsibilities }}</div>
-      </div>
-      <div class="row bottom-separator">
-        <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Projects:</div>
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          {{ range .projects }}
-            <div>{{ with .anchor }} <a href="#{{ . }}" >{{ end }}{{ .name }}{{ with .anchor }}</a>{{ end }}</div>
-          {{ end }}
+      <div class="item">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Dates:</div>
+          <div class="col-lg-8 col-md-8 col-sm-12">{{ .period }}</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Employer:</div>
+          <div class="col-lg-8 col-md-8 col-sm-12">{{ .employer }}</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Occupation or position held:</div>
+          <div class="col-lg-8 col-md-8 col-sm-12">{{ .occupation }}</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Main activities and responsibilities:</div>
+          <div class="col-lg-8 col-md-8 col-sm-12">{{ .responsibilities }}</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Projects:</div>
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            {{ range .projects }}
+              <div>{{ with .anchor }} <a href="#{{ . }}" >{{ end }}{{ .name }}{{ with .anchor }}</a>{{ end }}</div>
+            {{ end }}
+          </div>
         </div>
       </div>
       {{ end }}
@@ -66,7 +102,7 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="badges">
+  <section id="services" class="badges education2 cv-list">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -75,19 +111,32 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <ul class="serviceline education-list">
-            {{ range .Params.education }}
-            <li>
-              <div class="serviceline-panel">
-                <div class="serviceline-body">
-                  <div class="title">{{ .title }}</div>
-                  <div class="years">{{ .years }}</div>
-                  <div class="degree">{{ .degree}}</div>
-                </div>
+          {{ range .Params.education }}
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Dates:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .years }}</div>
               </div>
-            </li>
-            {{ end }}
-          </ul>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title of qualification awarded:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .title }}</div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Principal subjects/occupational skills covered:</div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">{{ .degree }}</div>
+                </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name and type of organization providing education and training:</div>
+                <div class="col-lg-8 col-md-8 col-sm-12">{{ .organization }}</div>
+              </div>
+              {{ with .level }}
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Level in national or international classification:</div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">{{ . }}</div>
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
         </div>
       </div>
     </div>
@@ -98,14 +147,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">My skills</h2>
+          <h2 class="section-heading">Technologies and skills</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <ul class="serviceline">
+          <ul class="cv-list">
             {{ range $k, $v := .Params.skills }}
-            <li>
+            <li class="item">
               <div class="serviceline-panel">
                 <div class="serviceline-heading">
                     <h4>{{ $v.title | markdownify }}</h4>
@@ -137,23 +186,21 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <ul class="serviceline">
+          <ul class="cv-list">
             {{ range $k, $v := .Params.projects }}
-            <li>
-              <div class="serviceline-panel">
-                <div class="serviceline-heading">
-                    {{ with $v.content}}{{ . | markdownify }}{{ end }}
-                    <h4 class="underline" {{ with $v.anchor}} name="{{ . }}"{{ end }}>{{ $v.name | markdownify }}</h4>
-                </div>
-                <div class="serviceline-body">
-                  {{ with $v.desc}}<p class="text-muted tx-pad-vertical">  {{ . | markdownify }}</p>{{ end }}
-                </div>
-                <ul class="tags text-muted">
-                  {{ range $v.tags }}
-                  <li class="tag"><i class="fa fa-tag" aria-hidden="true"></i>{{ . }}</li>
-                  {{ end }}
-                </ul>
+            <li class="item">
+              {{ with $v.anchor}}<a name="{{ . }}"></a>{{ end }}
+              <div class="serviceline-heading">
+                  <h4 class="underline">{{ $v.name | markdownify }}</h4>
               </div>
+              <div class="serviceline-body">
+                {{ with $v.desc}}<p class="text-muted tx-pad-vertical">  {{ . | markdownify }}</p>{{ end }}
+              </div>
+              <ul class="tags text-muted">
+                {{ range $v.tags }}
+                <li class="tag"><i class="fa fa-tag" aria-hidden="true"></i>{{ . }}</li>
+                {{ end }}
+              </ul>
             </li>
             {{ end }}
           </ul>
