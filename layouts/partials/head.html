@@ -7,10 +7,15 @@
       <title>{{ .Title }} | {{ .Site.Params.sitename }}</title>
   {{ end }}
   
+  
   <meta name="keywords" content="{{ .Params.meta.keywords }}" />
   <meta name="description" content="{{ .Params.meta.description }}"/>
   <meta name="author" content="{{ .Site.Params.author.name }}">
   <meta name="google-site-verification " content="{{ .Site.Params.googleVerification }}" />
+  <meta property="og:title" content="{{ .Params.meta.title }}"/>
+  {{ with .Params.meta.image }}
+    <meta name="og:image" content="{{ . }}">
+  {{ end }}
   
   <link rel="shortcut icon" href="/img/favicon.ico">
   <!-- Bootstrap core CSS -->

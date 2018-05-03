@@ -4,7 +4,8 @@ date: 2017-10-10T08:00:00.000Z
 meta:
   title: Software development agency for successful solutions
   keywords: software development,app development, web development, project management
-  description: WeBringApps is a digital agency focused to deliver a successful web and mobile apps that our clients will love. Our team of dedicated and fully responsible engineers is capable to deliver any kind of solution. No challenge is unureachable.
+  description: WeBringApps is a freelance team of highly qualified software engineers at your service. We are highly skilled in most demanded software technologies, very reliable team members and professionals in our business. We value knowledge, hard work and deadlines.
+  image: /img/wba-logo.png
 h1: WeBringApps - successful software solutions
 subtitle: Making development easier and efficient
 slider:
@@ -65,7 +66,7 @@ sections:
     image-l: null
     image-xl: null
   icon: fa fa-bolt
-  content: We are **experienced team** of engineers with more that 10 years of experience in professional software development. Through years of working with different clients and  profiles we learned what is important to make software solutions successful
+  content: We are **experienced team** of engineers with more that 10 years of experience in software development industry. Through years of working with different clients and  profiles we learned what is important to make software solutions successful
   points:
   - keep things as simple as possible
   - stay sharp on knowledge and technologies
