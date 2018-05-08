@@ -19,6 +19,7 @@ params:
     facebook: https://www.facebook.com/webringapps
     instagram: null
     google_plus: https://plus.google.com/103759532930714070333
+    linkedin: https://www.linkedin.com/company/webringapps/
   contact:
     email: info@webringapps.com
     address: null
@@ -37,6 +38,7 @@ params:
       facebook: null
       instagram: null
       google: null
+      linkedin: https://www.linkedin.com/in/ante-mihalj-a3558050/
 
 menu:
     top:
