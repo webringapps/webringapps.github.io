@@ -15,30 +15,27 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 label">Name:</div>
+        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.name }}</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 label">Title:</div>
+        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.title }}</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 label">Date of birth:</div>
+        <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.dob }}</div>
+      </div>
+      <div class="row">
         <div class="col-lg-4 col-md-12">
           {{ with .Params.personal.responsive_image }}
-          <div class="avatar-image">
+          <div class="avatar-image {{.class}}">
             {{ partial "responsive-image" .}}
           </div>
           {{ end }}
         </div>
-        
         <div class="col-lg-8 col-md-12">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name:</div>
-                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.name }}</div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title:</div>
-                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.title }}</div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Date of birth:</div>
-                <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.dob }}</div>
-              </div>
-          <p>
-            {{ .Params.personal.intro | markdownify }}
-          </p>
+          <p>{{ .Params.personal.intro | markdownify }}</p>
           {{ partial "social-buttons" .Params.social}}
         </div>
       </div>

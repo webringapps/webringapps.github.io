@@ -29,7 +29,7 @@ personal:
     image_xs: /img/ante-s.png
     image_l: /img/ante-m.png
   intro: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
+    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes successful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
     
   content: >-
     I have started with __software development__ during my college, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
@@ -45,7 +45,7 @@ personal:
     Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently, I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a __Principal technical consultant__, leading and educating a team of developers or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__
+    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant__, __senior developer__, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
 
 work_experience:
 - employer: We Bring Apps
@@ -133,6 +133,7 @@ projects:
   - JWT
   - Docker
   - crypto
+  - React
 
 - name: Basket as a Service
   anchor: elastic-api
@@ -238,7 +239,7 @@ education:
   organization: University of Zagreb, Faculty of Electrical Engineering and Computing, Department of Telecommunication (Croatia)
   years: 1999- 2004
   degree: Engineer of telecommunications and electronics
-  level: M. Sc.
+  level: M. Sc. in computer science
 
 - title: High-school graduate
   organization: Mathematical gymnasium in Zagreb, Croatia (MIOC)
@@ -252,7 +253,7 @@ skills:
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
-  - __Linux__ - AWS EC2, usual operations
+  - __Linux__ - AWS EC2, Nginx, usual operations
 
 - title: Cloud and related technologies
   points:

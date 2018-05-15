@@ -667,7 +667,8 @@ section.badges {
 
 .cv-table .label {
   font-weight: bold;
-  color: #868e96 !important; }
+  color: #868e96 !important;
+  text-align: right; }
 
 .cv-table .bottom-separator {
   border-bottom: #868e96 dashed 1px; }
