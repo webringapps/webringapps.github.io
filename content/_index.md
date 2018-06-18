@@ -21,7 +21,7 @@ introduction:
   tiles:
   - title: Clients
     icon: fa fa-heart
-    content: We like success, so do our clients. We wan't our clients to success, it is our goal.
+    content: We like success, so do our clients. We want success for our clients too, it is our goal.
   - title: Deliver on time
     icon: fa fa-hourglass-half 
     content: Time is money and we don't like to loose time or money. We are sure our clients feel the same.
