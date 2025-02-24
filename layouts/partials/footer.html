@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <span class="copyright">Copyright &copy; {{ .Site.Params.sitename }} 2019</span>
+        <span class="copyright">Copyright &copy; {{ .Site.Params.sitename }} {{ now.Year }}</span>
       </div>
       <div class="col-md-6">
           {{ partial "social-buttons" .Site.Params.social}}

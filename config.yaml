@@ -1,7 +1,7 @@
 baseurl: "/"
 languageCode: en-US
 languageLang: en
-title: WeBringApps - software development agency
+title: WeBringApps - creative software solutions
 pluralizelisttitles: false
 sitemap:
   changefreq: monthly
@@ -9,6 +9,7 @@ sitemap:
   filename: sitemap.xml
 params:
   sitename: WeBringApps
+  name: We Bring Apps
   copyright: webringapps.com
   powerBy: www.webringapps.com
   github: amihalj
@@ -16,9 +17,6 @@ params:
   googleTrackId: UA-108440761-1
   social:
     twitter: null
-    facebook: https://www.facebook.com/webringapps
-    instagram: null
-    google_plus: https://plus.google.com/103759532930714070333
     linkedin: https://www.linkedin.com/company/webringapps/
   contact:
     email: info@webringapps.com

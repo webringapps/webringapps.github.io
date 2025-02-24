@@ -30,18 +30,35 @@ h6 {
 
 section {
   padding: 100px 0;
+  .section-heading {
+    background-color: $theme-primary;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    h2.section-heading, h3.section-subheading {
+        color: #fff;
+        margin-bottom: 0;
+    }
+    font-family: monospace;
+  }
+
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
+  }
+
+  .footer-heading {
+    background-color: $gray-lighter;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    font-family: monospace;
   }
 }
 @media(min-width:768px) {

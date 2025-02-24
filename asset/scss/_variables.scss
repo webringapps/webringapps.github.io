@@ -8,3 +8,10 @@ $gray-dark: lighten($gray-base, 20%) !default;
 $gray: lighten($gray-base, 33.5%) !default;
 $gray-light: lighten($gray-base, 46.7%) !default;
 $gray-lighter: lighten($gray-base, 93.5%) !default;
+$gray-body: #666;
+
+$size_xxl: 1200px;
+$size_xl: 992px;
+$size_m: 768px;
+$size_sm: 576px;
+$size_xs: 320px;

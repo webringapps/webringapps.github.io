@@ -72,3 +72,8 @@
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
+@mixin mono-body-font {
+  font-family: monospace;
+  color: $gray-body;
+  text-align: justify;
+}

@@ -6,18 +6,23 @@ meta:
   keywords: software development,app development, web development, project management
   description: WeBringApps is a freelance team of highly qualified software engineers at your service. We are highly skilled in most demanded software technologies, very reliable team members and professionals in our business. We value knowledge, hard work and deadlines.
   image: /img/wba-logo.png
-h1: WeBringApps - successful software solutions
-subtitle: Making development easier and efficient
-slider:
+h1: 
+h2: creative software solutions
 
-- title: Web app development
-  image: null
-  description: Web app development in most of popular technologies
+subtitle: Seamless Web Development & App Integrations
+intro: >
+  At __We Bring Apps__, we specialize in creating __seamless web experiences__ and integrating your favorite apps into a __unified ecosystem__. 
+  
+  
+  Whether you need a custom-built web solution or __automated workflows to enhance productivity__, we make it happen effortlessly by employing our expert knowledge in building custom apps or using existing automation platforms to create a powerfull synergy for your needs. 
+  
+  
+  We are a team of __highly qualified__ software engineers at your service.
+
 
 introduction:
   title: null
   subtitle: null
-  intro: null
   tiles:
   - title: Clients
     icon: fa fa-heart
@@ -37,121 +42,121 @@ introduction:
   - title: Cloud ready solutions
     icon: fa fa-cloud
     content: We are experts when it comes to could delivery, making your solutions ready to deploy, scale and fit modern age software demands.
+  responsiveImage:
+    image_xs: /img/backgrounds/services3-220.png
+    image_sm: /img/backgrounds/services3-440.png
+    image_m: /img/backgrounds/services3-540.png
+    image_l: /img/backgrounds/services3-700.png
+    image: /img/backgrounds/services3-700.png
+    alt: We Bring Apps together
 
 process:
-  title: Our development process
-  subtitle: Keep it clean; Keep it simple
-  intro: The key to success is to avoid unnecessary complexity and noise. We keep our development process clean and simple. Keeping our development process clean, using iterative development cycles and client's feedback give us best results.  
+  title: Why Choose Us?
+  subtitle: Let’s build something amazing
+  footer: Transform your workflows and elevate your web presence. 
+  call_to_action: Contact us today to get started!
+    
 
   tiles:
-  - title: Identify
+  - title: Knowledge
     icon: far fa-lightbulb 
-    content: Identify client needs, propose possible improvements, define goals and remove "noise"
-  - title: Strategy
+    content: Expert developers with deep industry knowledge
+  - title: Scalability
     icon: fa fa-edit
-    content: Make a plan to produce solution within timeframe and budget, but keep quality assurance high
-  - title: Build
+    content: Scalable solutions for growing businesses
+  - title: Automation
     icon: fa fa-cogs
-    content: Start building solution in iterative process, get feedback from clients, repair and make it better
-  - title: Launch
-    icon: fa fa-rocket
-    content: Launch solution within deadline, continue to give support and improve over time
+    content: Time-saving automation to increase efficiency
+  - title: Security
+    icon: fa fa-lock
+    content: Secure, reliable, and future-proof integrations
+
 
 sections:
+  title: Our Expertise
+  subtitle: Team of **highly qualified** software engineers at your service
+  list:
 
-- title: Team of **highly qualified** software engineers at your service
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fa fa-bolt
-  content: We are **experienced team** of engineers with more that 10 years of experience in software development industry. Through years of working with different clients and  profiles we learned what is important to make software solutions successful
-  points:
-  - keep things as simple as possible
-  - stay sharp on knowledge and technologies
-  - learn to listen to your clients and lead them toward better solutions
 
-- title: Website development
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fab fa-html5
-  content: Make **higher client conversion** by employing **UX design** techniques and appealing beautiful design to your public websites or social networks. Make your company stand out from your competitors
-  points:
-  - present your company with a beautiful website
-  - get higher client conversion by placing important information and actions at best places
-  - get higher page ranking in search engines with SEO optimization techniques
-  - connect with social networks and get more potential clients to your website
-  - gather traffic analytics and client info  with smart use of cookies and tracking tools
+  - title: Custom Web Development
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fab fa-html5
+    content: Modern, responsive websites tailored to your needs, optimized for SEO and equipped with feedback forms and chatbot.
+    points:
+    - get higher client conversion by placing important information and actions at best places
+    - get higher page ranking in search engines with SEO optimization techniques
+    - add features like forms and chatbot to enhance usability
 
-- title: Server-side development
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fa fa-server
-  content: Server-side development can vary in complexity, but that is not something you should worry about as our client. It can be simple as a CRUD API or complex as scalable could application. If you need to make a server-side system from scratch or you need to extends current one, we are your team. We like challenges, technologies are no obstacle for us!
-  points:
-  - we can handle any **leading server-side technology** (.NET, Java, NodeJS, Go, ... you name it)
-  - work with any leading database system (MySql, PostgreSQL, Microsoft SQL Server, MongoDB)
-  - we can deploy server components on cloud infrastructure or your machines
-  - we have experience working with containerized systems (Docker, Kuberenetes, AWS) 
+  - title: Automated App Integrations
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fa fa-cogs
+    content: Streamlining operations by connecting existing tools and platforms using AI-driven automation and intelligent data processing.
+    points:
+    - Connect your existing apps and put them to collaboration
+    - Integrate with online sheets, databases or emailing services 
 
-- title: Container based development
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fab fa-docker
-  content: Containers are great new approach in software development. They tend to make the whole process of development > testing > delivery > repeat whole lot easier. With container based approach you can make complex systems achievable.
-  points:
-  - we work with technologies such as Docker and Kubernetes
-  - we can apply them to your choice of server side technology 
+  - title: API Development & Integration
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fab fa-docker
+    content: Efficiently linking services for smooth data flow, incorporating advanced AI technologies for predictive analytics and automation.
+    points:
+    - use the power of microservices and integrate them through APIs
+    - use the power of containers and tools to enhance your CI/CD
 
-- title: Front-end development
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fa fa-desktop
-  content: Either website or singe-page-app, our engineers can take any idea and transform it into blasting web interface. We keep ourselves on the edge of front-end technologies.
-  points:
-  - we support leading front-end trends HTML5, CSS3, SASS
-  - our Javascript developers are crafted in web frameworks like **Angular, ReactJS, Aurelia**, ...
+  - title: No-Code & Low-Code Solutions
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fa fa-code
+    content: Enabling automation without extensive coding, utilizing the latest advancements in AI and future-ready frameworks.
+    points:
+    - use of automation platforms to perform tasks with no-code or low-code approach
+    - integration with different AI agents and models to offer optimal approach for recurring tasks
 
-- title: Web and API development
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fa fa-asterisk
-  content: Connecting two worlds (server-side and front-end) is like building a bridge starting from both sides and has to perfectly match in the middle. Get our team involved and make **great APIs or Web apps**. Make your existing systems integrate with each other. Get in charge of your data and use it to your advantage
-  points:
-  - we can handle any **leading server-side technology** (.NET, Java, NodeJS, Go, ... you name it)
-  - integration with existing services or creating new ones
-  - use of leading databases (MySql, PostgreSQL, Microsoft SQL Server, MongoDB)
+  - title: Performance Optimization
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fa fa-tasks
+    content: Ensuring fast and reliable applications through cutting-edge technologies, including AI-powered enhancements and future tech innovations.
+    points:
+    - use the right tools for tasks that require high performance
+    - identify bottlenecks in your existing flows
 
-- title: Cloud development
+  - title: Fast development and MVP delivery
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+    icon: fa fa-bolt
+    content: Don't waste crucial time to get your product ready, launch your __Minimum Viable Product__ and get feedbyck from your audience. It's not a shame to fail, it's a shame to fail expensively.
+    points:
+    - keep things simple and get feedback soon
+    - stay sharp on new technologies
+  
   responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-  icon: fa fa-cloud
-  content: Cloud development is development taken to another level where apps need to scale and adopt according to traffic and user load. Build your apps so they can scale and still be successful when your number of clients reach high number. If you don't know how to handle it by yourself get our team involved and relax. We have lots of experience working with cloud infrastructures.
-  points:
-  - scale apps according to your needs
-  - avoid unnecessary expenses for resource hat you don't use 
-  - avoid downtime with system that can repair itself
-  - working with **Amazon, Azure and Google could services**
-  - working with containerized systems to make cloud delivery achievable
+    image_xs: /img/backgrounds/services2-220.png
+    image_sm: /img/backgrounds/services2-440.png
+    image_m: /img/backgrounds/services2-540.png
+    image_l: /img/backgrounds/services2-700.png
+    image: /img/backgrounds/services2-700.png
 
 
 ---
